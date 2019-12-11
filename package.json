@@ -1,0 +1,46 @@
+{
+  "name": "vue-super-slider",
+  "version": "0.1.0",
+  "description": "A super easy to use range slider for any Vue project",
+  "main": "src/index.js",
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "drag",
+    "component",
+    "super",
+    "slider",
+    "range",
+    "select"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertcorponoi/vue-super-slider"
+  },
+  "author": "Robert Corponoi",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli": "^4.1.1",
+    "@vue/cli-plugin-unit-jest": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "@vue/server-test-utils": "^1.0.0-beta.30",
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "vue-jest": "^3.0.5",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    }
+  }
+}
