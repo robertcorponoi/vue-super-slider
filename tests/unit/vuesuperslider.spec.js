@@ -1,6 +1,6 @@
 'use strict'
 
-import { mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils';
 
 import Bar from '../../src/components/Bar.vue';
 import Handle from '../../src/components/Handle.vue';
