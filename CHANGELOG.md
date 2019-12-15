@@ -1,3 +1,7 @@
+0.1.2 / 2019-12-15
+==================
+* [MISC] Replaced options list with a table including default values.
+
 0.1.1 / 2019-12-15
 ==================
 * [MISC] Removed unnecessary dev dependencies and added the ones used by creating a project with the Vue cli.

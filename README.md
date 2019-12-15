@@ -76,7 +76,7 @@ There are two required props, min and max which signify the minimum and maximum 
 
 The minimum value represented on the slider.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125></vue-super-slider>
@@ -86,7 +86,7 @@ The minimum value represented on the slider.
 
 The maximum value represented on the slider.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125></vue-super-slider>
@@ -96,12 +96,15 @@ The maximum value represented on the slider.
 
 There are optional parameters that can be passed as an object to the slider:
 
-- **barColor** - The color of the slider bar that's not between the two handles.
-- **barColorActive** - The color of the slider bar that's between the two handles.
-- **background** - The background image to use that spans above and across the whole slider.
-- **prefix** - A prefix to add to the numbers shown below the slider. For example if you add a '$' then all values will look like they represent a dollar amount to the user.
+| param                  	| type   	| description                                                                                                                                                    	| default 	|
+|------------------------	|--------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------	|
+| options                	| Object 	|                                                                                                                                                                	|         	|
+| options.barColor       	| string 	| The color of the slider bar that's not between the two handles.                                                                                                	| #e5e5e5 	|
+| options.barColorActive 	| string 	| The color of the slider bar that's between the two handles.                                                                                                    	| #42b883 	|
+| options.background     	| string 	| The background image to use that spans above and across the whole slider.                                                                                      	|         	|
+| options.prefix         	| string 	| A prefix to add to the numbers shown below the slider. For example: if you add a '$' then all values will look like they represent a dollar amount to the user. 	|         	|
 
-**example**
+**example:**
 
 ```html
 <template>
@@ -141,7 +144,7 @@ Now just having the slider wouldn't do you much good if you couldn't do anything
 
 This event is emitted whenever the user clicks, touches, or drags a handle and lets it go. The data emitted with it include the current min and max values of the slider after the event was completed.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125 v-on:valuesChanged="valuesChanged"></vue-super-slider>
@@ -159,7 +162,7 @@ export default {
 
 This event is emitted while any of the handles are actively being dragged. This event will be called frequently and is recommended to be used if you need to work with the values before they're finalized. The data emitted with it include the most up to date min and max values of the slider.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125 v-on:valuesUpdated="valuesUpdated"></vue-super-slider>
@@ -177,7 +180,7 @@ export default {
 
 This event is emitted whenever one of the handles is clicked on and starting to be dragged. The data emitted with this event is the handle that was dragged (either min or max) and the value of that slider when the event occurred.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125 v-on:sliderDragStart="sliderDragStart"></vue-super-slider>
@@ -195,7 +198,7 @@ export default {
 
 This event is emitted when a handle on the slider is actively being dragged. The data emitted with this event is the handle that is being dragged and its value at that current moment. Note that this event is called frequently so you might want to use a debouce function.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125 v-on:sliderDrag="sliderDrag"></vue-super-slider>
@@ -213,7 +216,7 @@ export default {
 
 This event is emitted whenever one of the handles is done being dragged. The data emitted with this event is the handle that is finished being dragged and the value it ended at.
 
-**example**
+**example:**
 
 ```html
 <vue-super-slider :min=0 :max=125 v-on:sliderDragEnd="sliderDragEnd"></vue-super-slider>
