@@ -1,6 +1,6 @@
 {
   "name": "vue-super-slider",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A super easy to use range slider for any Vue project",
   "main": "src/index.js",
   "scripts": {
