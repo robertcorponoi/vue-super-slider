@@ -1,3 +1,8 @@
+0.2.0 / 2019-12-17
+==================
+* [MISC] Moved dependencies to dev dependencies.
+* [MISC] Added tests section to README.
+
 0.1.2 / 2019-12-15
 ==================
 * [MISC] Replaced options list with a table including default values.

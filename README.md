@@ -35,6 +35,7 @@ A super easy to use range slider for any Vue project.
   - [sliderDragStart](#sliderDragStart)
   - [sliderDrag](#sliderDrag)
   - [sliderDragEnd](#sliderDragEnd)
+- [Tests](#tests)
 
 ## **Installation**
 
@@ -228,6 +229,14 @@ export default {
     sliderDragEnd(handle, endValue) { }
   }
 }
+```
+
+## **Tests**
+
+To run all of the tests available for Vue Super Slider, use:
+
+```bash
+$ npm run test:unit
 ```
 
 ## **License**
