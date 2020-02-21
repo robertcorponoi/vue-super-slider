@@ -5,7 +5,6 @@
 <script>
 export default {
   name: "VueSuperSliderBar",
-
   props: {
     /**
      * The color to use for the bar's background.
@@ -17,7 +16,6 @@ export default {
      */
     barColorActive: String,
   },
-
   methods: {
     /**
      * Sets the background of the bar depending on the active range selected.

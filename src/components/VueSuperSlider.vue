@@ -19,29 +19,24 @@ import Handle from "./Handle.vue";
 
 export default {
   name: "VueSuperSlider",
-
   props: {
     /**
      * The minumum value of the slider.
      */
     min: Number,
-
     /**
      * The maximum value of the slider.
      */
     max: Number,
-
     /**
      * Optional settings for the slider.
      */
     options: Object
   },
-
   components: {
     bar: Bar,
     handle: Handle
   },
-
   data() {
     return {
       /**
@@ -55,7 +50,7 @@ export default {
         background: null,
         prefix: ''
       },
-
+      
       /**
        * The color to use for the bar's that isn't between the handles.
        * 
@@ -113,11 +108,9 @@ export default {
       handleLastDragged: null,
     }
   },
-
   beforeMount() {
     this.setupOptions();
   },
-
   mounted() {
     this.setupBarProperties();
 
@@ -125,7 +118,6 @@ export default {
 
     this.addSliderEventListeners();
   },
-
   methods: {
     /**
      * Sets up the initial properties of the slider by merging the user selected options with the default ones for

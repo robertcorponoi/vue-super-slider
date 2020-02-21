@@ -5,14 +5,12 @@
 <script>
 export default {
   name: "VueSuperSliderHandle",
-
   props: {
     /**
      * Indicates which slider handle this is (min or max).
      */
     type: String,
   },
-
   data() {
     return {
       /**
