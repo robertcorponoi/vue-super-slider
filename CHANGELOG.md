@@ -3,6 +3,7 @@
 - [MISC] Updated all other dependencies to their latest versions.
 - [MISC] Removed unnecessary spacing.
 - [MISC] Changed CHANGELOG format.
+- [MISC] Updated license year to reflect new year.
 
 ## 0.2.0 / 2019-12-17
 - [MISC] Moved dependencies to dev dependencies.
