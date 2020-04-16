@@ -1,3 +1,6 @@
+## 0.3.1 / 2020-04-16
+- [MISC] Updated out-of-date dependencies to their latest versions which also fixed the fixed security vulnerabilities.
+
 ## 0.3.0 / 2020-02-20
 - [HOTFIX] Updated dependencies that caused security vulnerabilities.
 - [MISC] Updated all other dependencies to their latest versions.
